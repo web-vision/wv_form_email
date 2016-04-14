@@ -1,0 +1,30 @@
+{
+    "name": "web-vision/wv_form_email",
+    "type": "typo3-cms-extension",
+    "description": "Allow more powerfull emails as PostProcessor for Form extension.",
+    "homepage": "https://github.com/web-vision/wv_form_email",
+    "license": [
+        "GPL-2.0+"
+    ],
+    "authors": [
+        {
+            "name": "Daniel Siepmann",
+            "email": "coding@daniel-siepmann.de",
+            "homepage": "http://daniel-siepmann.de/"
+        }
+    ],
+    "keywords": [
+        "TYPO3",
+        "CMS",
+        "email",
+        "form"
+    ],
+    "require": {
+        "typo3/cms": "~7.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebVision\\WvFormEmail\\": "Classes"
+        }
+    }
+}
